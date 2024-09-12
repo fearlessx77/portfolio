@@ -25,7 +25,7 @@ img {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #121212; /* Dark background */
+    background-color: #ffffff; /* Dark background */
     color: #ffffff;
     line-height: 1.6;
 }
@@ -59,6 +59,7 @@ body {
 
 .nav-links {
     display: flex;
+    justify-content: space-evenly;
     list-style: none;
 }
 
@@ -187,13 +188,15 @@ body {
 
 /* Section Styling */
 .section {
+    border-radius: 30px;
+    margin-top: 10px;
     min-height: 100vh;
     padding: 100px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #121212; /* Dark background for sections */
+    background: linear-gradient(to bottom, #000000, #474141);
 }
 
 .section .content {
@@ -270,9 +273,9 @@ body {
 }
 
 .highlight {
-    color: #03a9f4;
+    color: #ffffff;
     font-weight: bold;
-    text-shadow: 0 0 10px #03a9f4;
+    text-shadow: 0 0 10px white;
 }
 
 .intro-name:hover, .intro-description:hover {
@@ -431,4 +434,131 @@ body {
 
 .popup-close:hover {
     color: #03a9f4; /* Highlight color on hover */
+}
+
+.svg-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.svg-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.svg-1:hover {
+  transition: 1.5s;
+  font-size: x-large;
+}
+.svg-2:hover {
+  transition: 1.5s;
+  font-size: x-large;
+}
+
+#about-head {
+  font-size: 60px;
+  font: bold;
+}
+
+#about-txt {
+  font-size: 20px;
+  font: bold;
+}
+
+#header-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.header-txt {
+  -webkit-text-fill-color: #03a9f4;
+}
+
+.header-txt:hover {
+  -webkit-text-fill-color: white;
+}
+
+#portfolio {
+  background-image: url(public/2.png);
+  background-size: 700px 700px; /* Set the size of the background image */
+  background-position: bottom left; /* Position the image at the top-right corner */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  padding: 20px; /* Add padding around the content */
+  background-color: #1e1e1e; /* Optional: Set a background color */
+}
+
+
+@media screen and (max-width: 1024px) {
+  #portfolio {
+    background-size: 500px 500px; /* Smaller size for tablet screens */
+    background-position: bottom left; /* You can adjust the position for smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #portfolio {
+    background-size: 400px 400px; /* Even smaller size for mobile screens */
+    background-position: bottom left; /* Center the image on small screens */
+  }
+}
+
+h2 #txt {
+  text-decoration: #ffffff;
+  
+}
+
+span #txt {
+  text-decoration: #ffffff;
+  font-size: 30px;
+  font: bold;
+  text-shadow: #cccccc;
+}
+
+
+#projects {
+  background-image: url(public/projects.png);
+  background-size: 700px 700px; /* Set the size of the background image */
+  background-position: bottom right; /* Position the image at the top-right corner */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  padding: 20px; /* Add padding around the content */
+  background-color: #1e1e1e; /* Optional: Set a background color */
+}
+
+
+@media screen and (max-width: 1024px) {
+  #projects {
+    background-size: 500px 500px; /* Smaller size for tablet screens */
+    background-position: bottom left; /* You can adjust the position for smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #projects {
+    background-size: 400px 400px; /* Even smaller size for mobile screens */
+    background-position: bottom left; /* Center the image on small screens */
+  }
+}
+
+
+#contact {
+  background-image: url(public/contact.png);
+  background-size: 700px 700px; /* Set the size of the background image */
+  background-position: bottom left; /* Position the image at the top-right corner */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  padding: 20px; /* Add padding around the content */
+  background-color: #1e1e1e; /* Optional: Set a background color */
+}
+
+
+@media screen and (max-width: 1024px) {
+  #contact {
+    background-size: 500px 500px; /* Smaller size for tablet screens */
+    background-position: bottom center; /* You can adjust the position for smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact {
+    background-size: 400px 400px; /* Even smaller size for mobile screens */
+    background-position: bottom center; /* Center the image on small screens */
+  }
 }
