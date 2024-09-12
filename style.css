@@ -558,7 +558,7 @@ span #txt {
 
 @media screen and (max-width: 600px) {
   #contact {
-    background-size: 100px 100px; /* Even smaller size for mobile screens */
+    background-size: 200px 200px; /* Even smaller size for mobile screens */
     background-position: bottom center; /* Center the image on small screens */
   }
 }
