@@ -12,9 +12,10 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">
-            <a href="#"><i class="fas fa-laptop-code"></i>GODFREY</a>
+            <a href="#" class="header-txt"><img title="logo" src="public/1.png" id="header-logo">GODFREY</a>
         </div>
         <ul class="nav-links">
+            <li></li>
             <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
             <li><a href="#projects"><i class="fas fa-tasks"></i> Projects</a></li>
             <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
@@ -35,8 +36,13 @@
         <div class="content">
             <h1>Portfolio</h1>
             <div class="intro">
-                <h2 class="intro-name">My name is <span class="highlight">Godfrey</span></h2>
-                <p class="intro-description">I'm a <span class="highlight">frontend web developer</span> with a passion for creating stunning and responsive websites.</p>
+              <div class="content-1">
+                <h2 class="intro-name">My name is</h2> <h2 id="txt"><span class="highlight">Godfrey</span></h2>
+                <p class="intro-description">I'm a</p> <span id="txt">frontend web developer</span> <p class="intro-description"> with a passion for creating stunning and responsive websites.</p>
+            </div>
+            
+              
+            
             </div>
         </div>
     </section>
@@ -64,7 +70,14 @@
     <section id="about" class="section">
         <div class="content">
             <h1>About Me</h1>
-            <p>Get to know more about me.</p>
+            <p id="about-head">Get to know more about me.</p>
+            <p id="about-txt">Hi, I'm Godfrey, a frontend web developer with a passion for turning creative ideas into interactive, seamless web experiences. I thrive on crafting visually stunning and highly functional websites that engage users from the first click.
+
+              With expertise in HTML, CSS, and JavaScript, I’m always on the lookout for the latest trends and tools to bring modern designs to life. I love diving into clean, efficient code, ensuring every project is as responsive and user-friendly as possible.
+              
+              Whether it’s building dynamic web applications or optimizing user interfaces, my goal is simple: create web experiences that leave a lasting impression. Let's build something great together!
+              
+              </p>
         </div>
     </section>
 
@@ -73,10 +86,22 @@
             <h1>Contact</h1>
             <p>Feel free to reach out to me!</p>
             <hr><br/>
-            <p><img class="h-[70px] w-[70px] text-white" title="phone" src="svg/phone.svg">+234 9167799404</p>
-            <p><img class="h-[70px] w-[70px] text-white" title="mail" src="svg/mailbox.svg">godfreydavouofficial@gmail.com</p>
+            <div class="svg">
+            <p class="svg-1"> <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="white" viewBox="0 0 16 16">
+              <path d="M13.601 2.344a7.65 7.65 0 0 0-10.712 0 7.649 7.649 0 0 0-1.937 7.849l-.942 3.447 3.539-.927a7.64 7.64 0 0 0 3.65.924h.002a7.65 7.65 0 0 0 7.648-7.649 7.607 7.607 0 0 0-2.248-5.444zM8.04 14.438a6.581 6.581 0 0 1-3.355-.896l-.241-.144-2.101.55.56-2.042-.157-.248a6.58 6.58 0 0 1 1.115-8.228 6.583 6.583 0 0 1 11.26 4.667 6.589 6.589 0 0 1-6.582 6.582zm3.568-4.882c-.197-.099-1.174-.581-1.355-.648-.18-.066-.312-.099-.444.1-.132.197-.508.647-.623.779-.115.132-.23.148-.427.049-.197-.099-.831-.305-1.584-.974-.586-.521-.982-1.164-1.098-1.361-.115-.197-.012-.304.087-.403.089-.089.197-.23.296-.344.099-.115.132-.197.197-.33.066-.132.033-.248-.016-.347-.049-.099-.444-1.07-.608-1.465-.16-.387-.322-.334-.444-.34l-.379-.007a.73.73 0 0 0-.525.244c-.18.197-.689.674-.689 1.646s.705 1.905.803 2.038c.099.132 1.392 2.125 3.376 2.978.471.203.838.324 1.124.419.472.15.902.129 1.24.078.378-.056 1.174-.48 1.339-.944.164-.465.164-.864.115-.944-.049-.08-.18-.132-.378-.23z"/>
+            </svg>+234 9167799404</p>
+            <p class="svg-2"><svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="white" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-5.777 3.467a1 1 0 0 1-1.046 0L2 5.383V12a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5.383z"/>
+            </svg>godfreydavouofficial@gmail.com</p>
+          </div>
             <hr>
         </div>
     </section>
+    <footer>
+      <p>&copy; 2024 Godfrey's portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
+
+
